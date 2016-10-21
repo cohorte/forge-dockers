@@ -35,7 +35,8 @@ docker stop $CONTAINER_NAME
 
 # archive container
 echo "---- backing-up new image: $CONTAINER_NAME_$SNAPSHOT_NAME"
-docker export --output="$CONTAINER_NAME_$SNAPSHOT_NAME" $CONTAINER_NAME
+docker export --output="$CONTAINER_NAME_$SNAPSHOT_NAME.tar" $CONTAINER_NAME
+#docker commit $CONTAINER_NAME $CONTAINER_NAME_$SNAPSHOT_NAME
 
 # archive data volumes
 echo "---- backing-up the following volumes: $VOLUMES"
