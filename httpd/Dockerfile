@@ -14,7 +14,3 @@ RUN mkdir -p /etc/letsencrypt
 RUN mkdir -p /usr/local/apache2/vhosts
 
 
-
-# volume
-VOLUME ["/etc/letsencrypt", "/usr/local/apache2/conf"]
-
