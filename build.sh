@@ -18,6 +18,6 @@ else
 	
 	echo "build deployer"
 	echo "Target Nexus: $TARGET_NEXUS"
-	ssh -i /root/.ssh/id_rsa -o StrictHostKeyChecking=no  root@${TARGET_FORGE} "bash /var/volumes/jenkins/workspace/docker/tomcat/build_docker.sh $USERNAME $PASSWORD "
+	ssh -i /root/.ssh/id_rsa -o StrictHostKeyChecking=no  root@${TARGET_FORGE} "bash /var/volumes/jenkins/workspace/docker/httpd/build_docker.sh $USERNAME $PASSWORD "
 fi
 
