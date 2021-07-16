@@ -12,7 +12,7 @@ COPY ./htdocs/* /usr/local/apache2/htdocs/
 # create certs directory
 RUN mkdir -p /etc/letsencrypt
 RUN mkdir -p /usr/local/apache2/vhosts
-RUN mkdir -p /opt/http/log/
+RUN mkdir -p /opt/httpd/log/
 
 
 
