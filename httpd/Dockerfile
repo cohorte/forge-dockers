@@ -1,4 +1,4 @@
-FROM httpd:2.4.46
+FROM httpd:2.4.51
 
 MAINTAINER Bassem Debbabi <bassem.debbabi@isandlatech.com>
 
