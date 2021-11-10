@@ -1,0 +1,6 @@
+#!/bin/sh
+
+
+echo "Content-type: application/json\n"
+w_res=$(python3 /usr/local/apache2/python/proxies.py)
+echo $w_res
