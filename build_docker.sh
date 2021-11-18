@@ -14,4 +14,4 @@ echo "DOCKER_USER=$DOCKER_USER"
 echo -e "\x1B[1;32m[INFO] Building Image [$DOCKER_REPOSITORY:$DOCKER_TAG] located on [$DIRECTORY]\x1B[0m"
 
 DIR="`dirname \"$0\"`"
-bash $DIR/build_image.sh "$DIRECTORY" "$DOCKER_REPOSITORY" "$DOCKER_TAG" $DOCKER_USER $DOCKER_PASSWORD dr.awensys.com
+bash $DIR/build_image.sh "$DIRECTORY" "$DOCKER_REPOSITORY" "$DOCKER_TAG" $DOCKER_USER $DOCKER_PASSWORD dr.cohorte.tech
