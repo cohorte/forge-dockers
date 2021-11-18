@@ -2,7 +2,7 @@
 
 DIR="`dirname \"$0\"`"
 DIRECTORY="$DIR/httpd"
-DOCKER_REPOSITORY="dr.awensys.com/httpd"
+DOCKER_REPOSITORY="dr.cohorte.tech/httpd"
 DOCKER_TAG="2.4.51"
 DOCKER_USER=$1
 DOCKER_PASSWORD=$2
