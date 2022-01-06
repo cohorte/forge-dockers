@@ -3,7 +3,7 @@ FROM httpd:2.4.51
 MAINTAINER Bassem Debbabi <bassem.debbabi@isandlatech.com>
 
 # install tools
-RUN apt-get update && apt-get install -y vim python3
+RUN apt-get update && apt-get install -y vim python3 wget
 
 
 COPY ./conf/* /usr/local/apache2/conf/
