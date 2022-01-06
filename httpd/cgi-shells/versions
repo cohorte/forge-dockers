@@ -1,0 +1,7 @@
+#!/bin/sh
+
+
+echo "Content-type: application/json\n"
+wget -q http://deployer_agent:8080/services/version/components
+versions=$(cat components)
+echo $versions
