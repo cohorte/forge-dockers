@@ -1,11 +1,17 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>List of Service available</title>
-  </head>
-  <body>
-    <a href="./proxies">proxies</a>
-    <a href="./versions">versions</a>
-  </body>
-</html>
+#!/bin/sh
+
+echo "Content-type: text/html\n"
+
+echo "<!DOCTYPE html>"
+echo "<html>"
+echo "  <head>"
+echo "    <meta charset="utf-8">"
+echo "   <title>List of Service available</title>"
+echo " </head>"
+echo "  <body>"
+echo "    <a href="./proxies">proxies</a>"
+echo "    <a href="./versions">versions</a>"
+echo "    <a href="./states">states</a>"
+echo "  </body>"
+echo "</html>"
+echo "\n"
